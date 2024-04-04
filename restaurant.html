@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyBite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav--bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">EASYBITE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Appitizers</a></li>
+                <li><a class="dropdown-item" href="#">Dsert</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Main Course</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Home-->
+    <section id="hero--section" class="mb-5 mx-5rem">
+      <h1 class="heading-text">Tahila, Where Taste Buds Dance</h1>
+      <button class="hero--section--btn fw-bold">Reserve Table!</button>
+    </section>
+
+    <!--The Menu-->
+    <section id="menu-section" class="my-5">
+      <h2><span>U</span><span>N</span><span>E</span><span>M</span></h2>
+      <!-- <p>
+        Our menu is carefully curated to tantalize your taste buds and transport
+        you on a culinary journey like no other. From exquisite appetizers to
+        mouthwatering main courses and decadent desserts.
+      </p> -->
+
+      <!-- parent menu  -->
+      <section>
+        <!-- Appitizers column -->
+        <div class="parent--meal">
+          <h3>Appetizers</h3>
+          <div class="appetizers--container">
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/24/a2/9f/24a29f63555d754833180d7247b66b62.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Crispy Calamari</h4>
+              <p>
+                Tender calamari rings lightly breaded and fried to perfection.
+                Served with a zesty marinara dipping sauce.
+              </p>
+              <p class="text-success fw-semibold">8,000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/27/1f/9d/271f9da773d799c621cd0b4cc73b9980.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Caprese Salad</h4>
+              <p>
+                Fresh buffalo mozzarella, ripe tomatoes, and basil leaves
+                drizzled with balsamic glaze and extra virgin olive oil.
+              </p>
+              <p class="text-success fw-semibold">5,000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/77/0a/ff/770aff2fc887596b149ded8c880307ce.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Parmesan Chicken Wings</h4>
+              <p>
+                Succulent chicken wings tossed in a savory garlic parmesan
+                sauce, served with celery sticks and ranch dressing.
+              </p>
+              <p class="text-success fw-semibold">3,000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+          </div>
+        </div>
+        <!-- Appitizers section ends here -->
+
+        <!-- main course starts here -->
+        <div class="parent--meal">
+          <h3>Main Course</h3>
+          <div class="appetizers--container">
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/7b/83/4f/7b834f4d3fcc27cfd51afdd1e12bf475.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Grilled Ribeye Steak</h4>
+              <p>
+                Juicy ribeye steak seasoned with our special blend of spices,
+                grilled to perfection, and served with garlic mashed potatoes
+                and seasonal vegetables.
+              </p>
+              <p class="text-success fw-semibold">4,200</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/6c/e3/55/6ce3559e27cecb1ffa863854deabf89f.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Vegetable Pad Thai</h4>
+              <p>
+                Stir-fried rice noodles with tofu, bean sprouts, carrots, bell
+                peppers, and green onions in a tangy tamarind sauce, garnished
+                with crushed peanuts and cilantro.
+              </p>
+              <p class="text-success fw-semibold">5,100</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/22/b8/53/22b85330c7c8ab21e3793f8915c20704.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Lemon Herb Roasted Chicken</h4>
+              <p>
+                Tender chicken breast marinated in lemon and herbs, roasted to
+                golden perfection, served with wild rice pilaf and steamed
+                asparagus.
+              </p>
+              <p class="text-success fw-semibold">5,300</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/4d/35/b7/4d35b768c2a6ee5579351ec79f778a06.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Shrimp Scampi Pasta</h4>
+              <p>
+                Succulent shrimp sautéed with garlic, white wine, and lemon
+                butter sauce, tossed with linguine pasta and finished with fresh
+                parsley.
+              </p>
+              <p class="text-success fw-semibold">10.000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+          </div>
+        </div>
+        <!-- main course ends here -->
+
+        <!-- desert starts here -->
+        <div class="parent--meal">
+          <h3>Desserts</h3>
+          <div class="appetizers--container">
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/90/cc/d6/90ccd6c2207c251d872be4b85f027a70.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Classic New York Cheesecake</h4>
+              <p>
+                Creamy cheesecake on a graham cracker crust, topped with your
+                choice of raspberry or strawberry coulis.
+              </p>
+              <p class="text-success fw-semibold">8,000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/9d/4b/f8/9d4bf8873231195f5e9c40b6ca3889ed.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Chocolate Lava Cake</h4>
+              <p>
+                Decadent chocolate cake with a molten chocolate center, served
+                warm with vanilla bean ice cream and drizzled with chocolate
+                sauce.
+              </p>
+              <p class="text-success fw-semibold">5.000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/f5/01/11/f501114356e36d6c7453ddfa7d07f840.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Tiramisu</h4>
+              <p>
+                Layers of espresso-soaked ladyfingers and mascarpone cheese,
+                dusted with cocoa powder and served with a dollop of whipped
+                cream.
+              </p>
+              <p class="text-success fw-semibold">3,000</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+
+            <div
+              class="border border-secondary-subtle p-3 shadow-lg rounded single--item"
+            >
+              <img
+                src="https://i.pinimg.com/564x/cd/3f/06/cd3f069e83662dcb311887ada8411424.jpg"
+                alt=""
+                width="150px"
+              />
+              <h4>Crème Brûlée</h4>
+              <p>
+                Rich custard topped with a caramelized sugar crust, served with
+                fresh berries and a delicate almond biscotti.
+              </p>
+              <p class="text-success fw-semibold">6,100</p>
+              <button class="add--btn">Add to Tray</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- menu section ends here  -->
+
+    <!-- about section starts here  -->
+    <section id="about--section">
+      <img
+        src="https://th.bing.com/th/id/R.6b92e78a8ff49bacad93139260762b14?rik=Z079cjh1CEqIlw&pid=ImgRaw&r=0"
+        alt="Our Meal"
+        width="700"
+      />
+      <div class="about--text">
+        <h1>Food for Eyes And Stomach</h1>
+        <p>
+          Welcome to EASYBITE! Indulge your senses in a culinary journey crafted
+          with passion and flavor. Our team is thrilled to have you here. Sit
+          back, relax, and prepare to savor an unforgettable dining experience.
+          Cheers to good food, great company, and memorable moments! Each dish
+          is thoughtfully prepared using the finest ingredients and inspired by
+          global culinary traditions. Get ready to embark on an unforgettable
+          dining experience where every bite tells a story of passion,
+          creativity, and culinary excellence. Bon appétit!"
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact us section starts here  -->
+    <section id="Contact--section">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="input-group mb-3">
+          <span class="input-group-text">Name</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder=""
+            aria-label="Username"
+          />
+          <span class="input-group-text">Email</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="example@email.com"
+            aria-label="Server"
+          />
+        </div>
+
+        <div class="input-group">
+          <span class="input-group-text">Your Review</span>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <button class="btn btn-outline-success my-3">Submit</button>
+      </form>
+    </section>
+
+    <footer id="footer--section" class="mt-5 py-2">
+      <div>
+        <img src="images/icon-location.svg" alt="" />
+        <p>No. 10 Rumuola Road, Port Harcourt</p>
+      </div>
+
+      <div id="Contact--details">
+        <a href="mailto:info@tahila.com">
+          <img src="images/icon-email.svg" alt="" />
+          <span>info@tahila.com</span>
+        </a>
+
+        <a href="tel:+22300000000">
+          <img src="images/icon-phone.svg" alt="" />
+          <span>+234000000</span>
+        </a>
+      </div>
+
+      <div id="social-link">
+        <div><i class="fa-brands fa-facebook-f"></i></div>
+        <div><i class="fa-brands fa-twitter"></i></div>
+        <div><i class="fa-brands fa-square-instagram"></i></div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/db88d2119d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
